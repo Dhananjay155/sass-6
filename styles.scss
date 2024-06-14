@@ -1,0 +1,11 @@
+@function double($number) {
+    @return $number * 2;
+  }
+  
+  $base-width: 150px;
+
+  .double-width {
+    width: double($base-width);
+    height: 200px;
+    background-color: yellowgreen;
+  }
